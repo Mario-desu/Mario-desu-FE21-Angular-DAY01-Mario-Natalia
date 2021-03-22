@@ -1,0 +1,23 @@
+
+
+.top {
+    background-image: url(https://pixabay.com/get/gf8f1d71fc082466fdb9ef52ec3a8fbdec20ab42e196cbe31da55db16d43e8a321cd564b325144ca3001d7e76ee51ecf3_1920.jpg);
+    background-size: cover;
+    // .bg-image {
+    //     background: url(...) no-repeat center fixed;
+    //     height: 100vh; // the height of the img
+        -webkit-background-cover: cover ;
+        -moz-background-cover: cover ;
+        -o-background-cover: cover ;
+    //     background-size: cover;
+    //   }
+    height: 40vw;
+    width: 100%;
+    text-align: center;
+    color: whitesmoke;
+    padding-top: 15vw;
+
+    h1, p {
+        text-shadow: 1px 1px 2px black;
+    }
+}
