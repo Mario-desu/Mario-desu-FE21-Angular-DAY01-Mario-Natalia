@@ -1,0 +1,23 @@
+/* stylings of the about-page */
+
+  /* styles for the icons */
+.borderIcon {
+  width: 50px;
+  height: 50px;
+  border: 1px white solid;
+  border-radius: 50%;
+
+}
+
+.aboutDiv {
+  background-color: rgba(9, 63, 94, 0.8);
+  height: 35vw;
+}
+
+.bgImageAbout {
+  background: url(/assets/img/about-page/jaanus-jagomagi-FFUPFHcp2YU-unsplash.jpg) no-repeat center top fixed;
+  -webkit-background-cover: cover ;
+  -moz-background-cover: cover ;
+  -o-background-cover: cover ;
+  background-size: cover; 
+}
