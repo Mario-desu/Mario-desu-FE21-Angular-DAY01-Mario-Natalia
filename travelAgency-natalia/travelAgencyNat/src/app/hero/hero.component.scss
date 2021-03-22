@@ -1,1 +1,13 @@
-/* styling the bg image of the header */
+/* styling the text in the bg-image of the header */
+
+
+.btnHero {
+  color: white;
+  border: white solid 1px;
+  text-shadow: 2px 2px 5px #333;
+
+  &:hover {
+    color: #005E8C;
+    background-color: white;
+  }
+}
