@@ -3,11 +3,21 @@
 
 .btnHero {
   color: white;
-  border: white solid 1px;
+  background-color: #005E8C;
+  border: #005E8C solid 1px;
   text-shadow: 2px 2px 5px #333;
 
   &:hover {
     color: #005E8C;
     background-color: white;
+    text-shadow: none;
   }
+}
+
+.hero h1, p {
+  text-shadow: 2px 2px 5px #333;
+}
+
+.hero {
+  height: 70vh;
 }
